@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <!-- アーティクルセクションタグを使用する -->
+    <!-- head内に文字コードとページ説明文の実装もしよう -->
     <head>
         <title>SAMURAIニュース</title>
+        <meta name="dexcription" content="このページは8章の課題です。">
+        <meta charset="utf-8">
     </head>
 
     <body>
@@ -18,13 +22,16 @@
         <hr>
 
         <main>
-            <h2>社会</h2>
-            <h3>和菓子店も「トリックオアトリート！」</h3>
+            <article>
+                <h2>社会</h2>
+                <h3>和菓子店も「トリックオアトリート！」</h3>
+    
+                <p>
+                    日本では年々人気の高まるハロウィン。<br>
+                    今年は大手和菓子店5社がハロウィン向けの和菓子セットを共同開発しました。
+                </p>
+            </article>
 
-            <p>
-                日本では年々人気の高まるハロウィン。<br>
-                今年は大手和菓子店5社がハロウィン向けの和菓子セットを共同開発しました。
-            </p>
 
             <!-- これわすれてた -->
             <audio src="ichi.mp3" controls></audio>
@@ -66,14 +73,17 @@
                 <input type="reset">
             </form>
 
-            <h2>テクノロジー</h2>
-            <h3>SAMURAIが新しい動画をリリース</h3>
-            <p>
-                SAMURAI公式YouTubeで新しい動画がリリースされました。<br>
-                動画の内容はHTML/CSSの解説です。
-            </p>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLiGSUohEo?si=DoUR3X92sD0tWl3D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <section>
+                <h2>テクノロジー</h2>
+                <h3>SAMURAIが新しい動画をリリース</h3>
+                <p>
+                    SAMURAI公式YouTubeで新しい動画がリリースされました。<br>
+                    動画の内容はHTML/CSSの解説です。
+                </p>
+    
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLiGSUohEo?si=DoUR3X92sD0tWl3D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+            </section>
 
         </main>
 
