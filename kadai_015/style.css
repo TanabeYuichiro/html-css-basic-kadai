@@ -1,0 +1,51 @@
+.body {
+    /* 優先したいフォントを先に書く */
+    /* 英語のフォントを先に書く */
+    /* 総称フォントは最後に書く */
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.google-fonts {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.blue {
+    color: skyblue;
+}
+
+.pink {
+    color: rgb(255, 192, 203);
+}
+
+.basic {
+    font-size: 20px;
+}
+
+.h1size {
+    font-size: 40px;
+}
+
+.h1span {
+    letter-spacing: 48px;
+}
+
+.h1line {
+    border-bottom: solid 3px black;
+}
+
+.h1shadow {
+    text-shadow: 1px 5px 1px gray;
+}
+
+.bold {
+    font-weight: bold;
+}
