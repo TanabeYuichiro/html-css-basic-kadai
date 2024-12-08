@@ -1,3 +1,7 @@
+html {
+    font-size: 20px;
+}
+
 .body {
     /* 優先したいフォントを先に書く */
     /* 英語のフォントを先に書く */
@@ -31,7 +35,8 @@
 }
 
 .h1size {
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2rem;
 }
 
 .h1span {
