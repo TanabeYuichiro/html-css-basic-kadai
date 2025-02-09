@@ -62,29 +62,28 @@ body {
     height: 300px;
     background-color: #87ceeb;
     position: relative;
-    overflow: hidden;
 }
 
-#bottom-child01,
-#bottom-child02,
-#bottom-child03 {
+#bottom-child01, #bottom-child02, #bottom-child03 {
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
-    position: absolute;
 }
 
 #bottom-child01 {
+    position: absolute;
     top: 0;
     left: 0;
 }
 
 #bottom-child02 {
+    position: absolute;
     top: 100px;
-    left: 200px;
+    left: 200px; /* 相対位置指定 */
 }
 
 #bottom-child03 {
+    position: absolute;
     top: 200px;
-    left: 400px;
+    left: 400px; /* 相対位置指定 */
 }
