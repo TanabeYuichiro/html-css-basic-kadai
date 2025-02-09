@@ -13,14 +13,12 @@ body {
     background-color: #dcc9f4;
     margin: 20px 0;
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 .top-child {
+    display: inline-block;
     width: 20%;
     background-color: #ffd9df;
-    margin: 0 10px;
 }
 
 /* 真ん中の図形 */
@@ -32,9 +30,7 @@ body {
     position: relative;
 }
 
-#middle-child01,
-#middle-child02,
-#middle-child03 {
+#middle-child01, #middle-child02, #middle-child03 {
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
@@ -61,29 +57,23 @@ body {
     width: 800px;
     height: 300px;
     background-color: #87ceeb;
-    position: relative;
 }
 
 #bottom-child01, #bottom-child02, #bottom-child03 {
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
+    position: relative;
 }
 
 #bottom-child01 {
-    position: absolute;
-    top: 0;
-    left: 0;
+    /* 変更なし */
 }
 
 #bottom-child02 {
-    position: absolute;
-    top: 100px;
-    left: 200px; /* 相対位置指定 */
+    left: 200px;
 }
 
 #bottom-child03 {
-    position: absolute;
-    top: 200px;
-    left: 400px; /* 相対位置指定 */
+    left: 400px;
 }
